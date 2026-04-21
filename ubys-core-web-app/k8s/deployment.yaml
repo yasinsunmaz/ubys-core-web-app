@@ -6,7 +6,7 @@ spec:
   replicas: 2
   selector:
     matchLabels:
-      app: ubys-core-webapp
+      app: ubys-core-web-app
   template:
     metadata:
       labels:
