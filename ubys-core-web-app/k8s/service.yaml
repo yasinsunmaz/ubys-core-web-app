@@ -7,6 +7,6 @@ spec:
     app: ubys-core-web-app
   ports:
     - port: 80
-      targetPort: 80
+      targetPort: 8080
       nodePort: 30007
   type: NodePort
